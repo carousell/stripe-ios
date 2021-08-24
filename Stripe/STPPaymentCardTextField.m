@@ -739,6 +739,9 @@ CGFloat const STPPaymentCardTextFieldMinimumPadding = 10;
 }
 
 - (CGFloat)numberFieldCompressedWidth {
+    if (self.cardNumber.length == 0 && self.numberPlaceholder != NULL) {
+        return [self widthForText:self.numberPlaceholder];
+    }
 
     NSString *cardNumber = self.cardNumber;
     if (cardNumber.length == 0) {
