@@ -5857,6 +5857,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F0D1AEF2AFE005B926E /* StripeiOS Tests-Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5864,6 +5865,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F0E1AEF2AFE005B926E /* StripeiOS Tests-Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -5871,6 +5873,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F151AEF2AFE005B926E /* StripeiOSStatic.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5878,6 +5881,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F151AEF2AFE005B926E /* StripeiOSStatic.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -5885,6 +5889,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F181AEF2AFE005B926E /* StripeiOSStaticFramework.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5892,6 +5897,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F181AEF2AFE005B926E /* StripeiOSStaticFramework.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -5900,6 +5906,7 @@
 			baseConfigurationReference = 04F39F101AEF2AFE005B926E /* StripeiOS-Debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stripe.stripe-ios";
 			};
 			name = Debug;
@@ -5909,6 +5916,7 @@
 			baseConfigurationReference = 04F39F111AEF2AFE005B926E /* StripeiOS-Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stripe.stripe-ios";
 			};
 			name = Release;
@@ -5918,6 +5926,7 @@
 			baseConfigurationReference = 04F39F0A1AEF2AFE005B926E /* Project-Debug.xcconfig */;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
@@ -5926,6 +5935,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F39F0B1AEF2AFE005B926E /* Project-Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -5934,6 +5944,7 @@
 			baseConfigurationReference = 36FA86272241710700D5B4D4 /* LocalizationTester-Debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5942,6 +5953,7 @@
 			baseConfigurationReference = 36FA86292241718F00D5B4D4 /* LocalizationTester-Release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -5949,6 +5961,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3634DB2A2241879400E4AA7E /* LocalizationTesterUITests.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5956,6 +5969,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3634DB2A2241879400E4AA7E /* LocalizationTesterUITests.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -5963,6 +5977,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F94D6F1D21CB20004FC826 /* StripeiOSResources.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Debug;
 		};
@@ -5970,6 +5985,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 04F94D6F1D21CB20004FC826 /* StripeiOSResources.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
